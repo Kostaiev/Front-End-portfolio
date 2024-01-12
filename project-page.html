@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-End projecs</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/367278d2a4.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="title-0">LEARNING</h1>
+    </header>
+    <nav class="nav">
+      <div class="container">
+        <div class="nav-row">
+          <a href="./index.html" class="logo"
+            ><strong>Front-End</strong> portfolio</a
+          >
+
+          <button class="dark-mode-btn">
+            <img
+              src="./img/icons/sun.svg"
+              alt="Light mode"
+              class="dark-mode-btn__icon"
+            />
+            <img
+              src="./img/icons/moon.svg"
+              alt="Dark mode"
+              class="dark-mode-btn__icon"
+            />
+          </button>
+
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a
+                href="./index.html"
+                class="nav-list__link nav-list__link--active"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-list__item">
+              <a href="./skills.html" class="nav-list__link">Skills</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="./contacts.html" class="nav-list__link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="section">
+      <article class="container">
+        <div class="project-details">
+          <h1 class="title-1">Library</h1>
+
+          <img
+            src="./img/projects/library.jpg"
+            alt=""
+            class="project-details__cover"
+          />
+
+          <div class="project-details__desc">
+            <p>
+              Skills: HTML, CSS, React, TypeScript, Java, Spring Boot, MySQL
+            </p>
+          </div>
+
+          <a class="social" href="https://github.com/Kostaiev"
+            ><i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </article>
+
+      <div class="container">
+        <h2 class="title-1">Projects</h2>
+        <ul class="projects">
+          <li class="project">
+            <a href="./project-page.html">
+              <img
+                src="./img/projects/library.jpg"
+                alt="Project img"
+                class="project__img"
+              />
+              <h3 class="project__title">Library full-stack</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://gitlab.com/konstantintru99"
+                ><i class="fa-brands fa-gitlab"></i
+              ></a>
+            </li>
+            <li class="social__item">
+              <a href="https://github.com/Kostaiev"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+          <div class="copyright">
+            <p>© 2024 Front-End</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
